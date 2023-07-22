@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    width: 16px;
+    height:50px;
+    background-color: blue ;
+
+  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: blue ;
+    
+  } 
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+
+
+
+.scrollbar{
+  width: 20px;
+  height: 20px;
+  background-color:red;
+}

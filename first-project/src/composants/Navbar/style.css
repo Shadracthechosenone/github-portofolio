@@ -1,0 +1,126 @@
+a {
+    cursor: pointer;
+}
+
+a,
+li,
+h1 {
+    font-family: 'Times New Roman ';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+
+
+ul {
+    display: flex;
+    float: right;
+    color: blue;
+}
+
+
+
+li {
+    margin-left: 20px;
+
+
+
+}
+
+.quatre {
+    margin-left: 70%;
+}
+
+
+@media (max-width:950px) {
+    ul {
+        margin-right: 2rem;
+
+    }
+    
+
+
+
+
+}
+
+@media (max-width:1030px) {
+    /* ul li {
+        display: none;
+    } */
+    ul {
+        margin-right: 5rem;
+
+    }
+
+
+}
+
+
+* {
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: whitesmoke;
+    width:100%;
+    height:70px;
+    position:sticky;
+}
+
+/* Afficher le bouton burger */
+
+
+@media(max-width:550px) {
+    ul {
+        display: none;
+    }
+
+    .burger {
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: -12px;
+
+    }
+
+
+    .premier {
+        height: 3px;
+        width: 18px;
+        background-color: blue;
+        margin: 5px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:726px) {
+   
+     ul{
+display:none;       
+    }
+
+    .burger {
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: -12px;
+
+    }
+
+
+    .premier {
+        height: 3px;
+        width: 18px;
+        background-color: blue;
+        margin: 5px;
+
+    }
+
+}

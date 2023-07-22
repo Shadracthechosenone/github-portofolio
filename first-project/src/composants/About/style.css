@@ -1,0 +1,16 @@
+.body {
+    align-items: center;
+    margin-left: 15rem;
+    margin-top: 6rem;
+}
+
+.photo {
+    border: 25px solid blue;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
